@@ -114,19 +114,18 @@ function Index() {
               }
             >
               <CardBlock label="Problema">
-                Un banco estaba experimentando fuga de clientes sin entender sus principales
-                causas ni su impacto en el capital.
+                Un banco enfrentaba fuga de clientes sin identificar sus principales causas ni
+                su impacto financiero.
               </CardBlock>
               <CardBlock label="Enfoque">
-                Realicé un análisis exploratorio en Power BI y, a través de visualizaciones y
-                comparaciones, identifiqué los patrones que mejor explicaban la fuga de clientes
-                y los segmentos de mayor riesgo.
+                Realicé un análisis exploratorio en Power BI mediante visualizaciones y
+                comparaciones para identificar patrones de fuga y segmentos de mayor riesgo.
               </CardBlock>
               <CardBlock label="Resultados">
-                El banco enfrenta una fuga de capital concentrada en clientes de alto saldo, lo
-                que genera un impacto financiero significativo. La principal señal de alerta es
-                la inactividad, particularmente en Alemania, que registra la tasa de fuga más
-                alta.
+                Identifiqué una pérdida de capital concentrada en clientes de alto saldo,
+                generando un impacto financiero significativo. La inactividad emerge como la
+                principal señal de alerta, especialmente en Alemania, donde se registra la mayor
+                tasa de fuga.
               </CardBlock>
               <img
                 src={churnDashboard}
@@ -260,7 +259,7 @@ function Index() {
             id="skills"
             className="relative text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl"
           >
-            Habilidades
+            Skills
             <span className="mt-2 block h-1 w-14 rounded-full bg-primary" aria-hidden="true" />
           </h2>
           <ul className="relative mt-8 flex flex-wrap gap-2">

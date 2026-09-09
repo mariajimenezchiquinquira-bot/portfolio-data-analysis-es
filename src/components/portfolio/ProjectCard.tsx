@@ -49,7 +49,7 @@ export function GithubLink({ href }: { href: string }) {
   );
 }
 
-export function DocsLink({ href, label = "Cómo Funciona" }: { href: string; label?: string }) {
+export function DocsLink({ href, label = "Ver Documentación" }: { href: string; label?: string }) {
   return (
     <ActionLink href={href} variant="solid">
       <FileText className="h-4 w-4" aria-hidden="true" />
