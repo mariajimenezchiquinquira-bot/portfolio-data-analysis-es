@@ -158,8 +158,8 @@ function Index() {
               </CardBlock>
               <CardBlock label="Resultado">
                 Los tres clústeres se diferenciaron por frecuencia y valor de gasto: ocasionales
-                de bajo gasto (42,7%), ocasionales de alto valor (33,1%, 9 veces mayor) y
-                usuarios frecuentes (24,2%).
+                de bajo gasto (42.7%), ocasionales de alto valor (33.1%, 9 veces mayor) y
+                usuarios frecuentes (24.2%).
               </CardBlock>
               <ProjectImageGrid
                 columns={3}
