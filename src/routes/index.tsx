@@ -136,7 +136,7 @@ function Index() {
             </ProjectCard>
 
             <ProjectCard
-              title="Segmentación de Clientes de Tarjetas de Crédito"
+              title="Segmentación de Tarjetahabientes por Comportamiento de Gasto"
               tech={["Python", "SQL"]}
               actions={
                 <ActionLink href="/ConsumoTarjetasCredito.html" variant="solid">
@@ -146,22 +146,20 @@ function Index() {
               }
             >
               <CardBlock label="Problema">
-                Un banco necesitaba identificar comportamientos de consumo diferenciados entre
-                47,871 tarjetahabientes para diseñar promociones dirigidas, pero no existían
-                grupos de clientes predefinidos.
+                Un banco colombiano contaba con datos de gasto de más de 47.000 tarjetahabientes,
+                pero no tenía una segmentación basada en su comportamiento de uso, limitando el
+                diseño de promociones dirigidas.
               </CardBlock>
               <CardBlock label="Enfoque">
-                Aplique clustering K-means para segmentar clientes según sus patrones de gasto,
-                usando one-hot encoding, escalado de variables y el método del codo para
-                determinar el número óptimo de clústeres. Luego usé SQL para analizar la
-                categoría dominante, la franquicia de tarjeta y el comportamiento de gasto de
-                cada segmento.
+                Apliqué clustering K-means para segmentar clientes según su comportamiento
+                transaccional y utilicé el método del codo para determinar el número óptimo de
+                clústeres. Luego, mediante SQL, analicé la frecuencia, el gasto promedio y la
+                categoría dominante de cada clúster.
               </CardBlock>
               <CardBlock label="Resultado">
-                Identifiqué 4 segmentos de clientes diferenciados. El análisis reveló que el 91%
-                de los clientes comparte un patrón común de consumo nacional y presencial,
-                mientras que un segmento más pequeño, internacional y en línea, surgió como una
-                oportunidad diferenciada para promociones dirigidas.
+                Los tres clústeres se diferenciaron por frecuencia y valor de gasto: ocasionales
+                de bajo gasto (42,7%), ocasionales de alto valor (33,1%, ~9 veces mayor) y
+                usuarios frecuentes (24,2%).
               </CardBlock>
               <ProjectImageGrid
                 columns={3}
