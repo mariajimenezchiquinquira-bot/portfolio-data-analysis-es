@@ -104,25 +104,25 @@ function Index() {
           </h2>
           <div className="mt-8 grid gap-6">
             <ProjectCard
-              title="Análisis de Fuga de Clientes y Pérdida de Capital"
+              title="Análisis — Fuga de Clientes y Pérdida de Capital"
               tech={["Power BI", "DAX", "Visualización de Datos"]}
               actions={
                 <GithubLink href="https://github.com/mariajimenezchiquinquira-bot/PowerBi-Customer-Churn-Capital-Loss-Analysis" />
               }
             >
               <CardBlock label="Problema">
-                Un banco enfrentaba fuga de clientes sin identificar sus principales causas ni
-                su impacto financiero.
+                Un banco enfrentaba una alta fuga de clientes sin identificar sus principales
+                causas ni el impacto financiero asociado.
               </CardBlock>
               <CardBlock label="Enfoque">
-                Realicé un análisis exploratorio en Power BI mediante visualizaciones y
-                comparaciones para identificar patrones de fuga y segmentos de mayor riesgo.
+                Se realizó un análisis exploratorio en Power BI para identificar patrones de
+                fuga, comparar segmentos y detectar los clientes con mayor riesgo de abandono.
               </CardBlock>
               <CardBlock label="Resultados">
-                Identifiqué una pérdida de capital concentrada en clientes de alto saldo,
-                generando un impacto financiero significativo. La inactividad emerge como la
-                principal señal de alerta, especialmente en Alemania, donde se registra la mayor
-                tasa de fuga.
+                Se encontró que la pérdida de capital estaba concentrada en clientes con altos
+                saldos, generando un impacto financiero significativo. La inactividad surgió
+                como la principal señal de alerta, especialmente en Alemania, donde se registró
+                la mayor tasa de fuga.
               </CardBlock>
               <img
                 src={churnDashboard}
