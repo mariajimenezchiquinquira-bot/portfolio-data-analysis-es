@@ -186,7 +186,7 @@ function Index() {
                 repetitivo, lento y propenso a errores humanos.
               </CardBlock>
               <CardBlock label="Solución">
-                Construí un flujo en n8n que automatiza el proceso de principio a fin: toma los
+                Un flujo en n8n que automatiza el proceso de principio a fin, toma los
                 contratos desde Google Drive, extrae su contenido y utiliza Gemini AI para
                 identificar los 8 campos requeridos. Luego, registra automáticamente la
                 información en Google Sheets y, al terminar de procesar todos los contratos,
