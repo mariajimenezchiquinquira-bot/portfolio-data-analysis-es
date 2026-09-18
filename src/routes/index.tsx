@@ -181,20 +181,21 @@ function Index() {
               }
             >
               <CardBlock label="Problema">
-                El equipo de facturación de un concesionario extraía manualmente 8 campos de
-                datos de contratos en PDF a una hoja de cálculo, un proceso lento y propenso a
-                errores humanos.
+                El equipo de facturación de un concesionario transcribía manualmente 8 campos de
+                información desde contratos en PDF a una hoja de cálculo. Era un proceso
+                repetitivo, lento y propenso a errores humanos.
               </CardBlock>
-              <CardBlock label="Enfoque">
-                Construí un flujo automatizado en n8n usando un bucle para procesar múltiples
-                contratos. El flujo lee los PDFs desde Drive, envía el texto a Gemini AI mediante
-                un nodo Information Extractor, actualiza Google Sheets y dispara una
-                confirmación por Gmail.
+              <CardBlock label="Solución">
+                Construí un flujo en n8n que automatiza el proceso de principio a fin: toma los
+                contratos desde Google Drive, extrae su contenido y utiliza Gemini AI para
+                identificar los 8 campos requeridos. Luego, registra automáticamente la
+                información en Google Sheets y, al terminar de procesar todos los contratos,
+                envía un correo de confirmación por Gmail.
               </CardBlock>
               <CardBlock label="Resultado">
-                El flujo procesó los 15 contratos sin errores, agregando automáticamente datos
-                estructurados y notificando al equipo. Esto eliminó el ingreso manual de datos,
-                optimizó el procesamiento por lotes y mejoró la confiabilidad de la facturación.
+                Se eliminó la carga manual de datos y se agilizó el procesamiento de contratos
+                por lotes, reduciendo errores y haciendo más confiable el proceso de
+                facturación.
               </CardBlock>
               <div className="flex flex-col gap-3">
                 <a
