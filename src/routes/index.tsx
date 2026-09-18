@@ -77,8 +77,7 @@ function Index() {
             María José Jiménez
           </h1>
           <p className="mt-3 text-base font-medium text-muted-foreground sm:text-lg">
-            Estudiante de Ingeniería Industrial —{" "}
-            <span className="text-primary">Énfasis en Análisis de Datos</span>
+            Estudiante de Ingeniería Industrial
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a
@@ -173,8 +172,8 @@ function Index() {
             </ProjectCard>
 
             <ProjectCard
-              title="Automatización de Contratos Vehiculares"
-              tech={["n8n", "Google Gemini (IA)"]}
+              title="Automatización — Contratos Vehiculares"
+              tech={["n8n", "Gemini (IA)", "Process Automation"]}
               actions={
                 <DocsLink href="/docs/vehicle-contract-automation-technical-documentation.pdf" />
               }
@@ -255,7 +254,7 @@ function Index() {
             id="skills"
             className="relative text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl"
           >
-            Skills
+            Skills & Tools
             <span className="mt-2 block h-1 w-14 rounded-full bg-primary" aria-hidden="true" />
           </h2>
           <ul className="relative mt-8 flex flex-wrap gap-2">
@@ -273,7 +272,7 @@ function Index() {
 
       <footer className="border-t border-border bg-secondary/50">
         <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-10 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-sm text-muted-foreground">© 2026 María José Jiménez</p>
+          <p className="text-sm text-muted-foreground">© María José Jiménez</p>
           <div className="flex gap-5">
             <a
               href="https://www.linkedin.com/in/mariajosejimenez-ingenieraindustrial/"
