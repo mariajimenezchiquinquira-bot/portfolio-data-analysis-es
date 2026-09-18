@@ -133,7 +133,7 @@ function Index() {
             </ProjectCard>
 
             <ProjectCard
-              title="Segmentación de Tarjetahabientes por Comportamiento de Gasto"
+              title="Segmentación — Tarjetahabientes por Comportamiento de Gasto"
               tech={["Python", "SQL"]}
               actions={
                 <ActionLink href="/ConsumoTarjetasCredito.html" variant="solid">
@@ -143,20 +143,22 @@ function Index() {
               }
             >
               <CardBlock label="Problema">
-                Un banco colombiano contaba con datos de gasto de más de 47.000 tarjetahabientes,
-                pero no tenía una segmentación basada en su comportamiento de uso, limitando el
-                diseño de promociones dirigidas.
+                Un banco contaba con información de gasto de más de 47.000 tarjetahabientes,
+                pero no tenía una forma clara de agruparlos según como usaban sus tarjetas, lo
+                que dificultaba crear promociones dirigidas.
               </CardBlock>
               <CardBlock label="Enfoque">
-                Apliqué clustering K-means para segmentar clientes según su comportamiento
-                transaccional y utilicé el método del codo para determinar el número óptimo de
-                clústeres. Luego, mediante SQL, analicé la frecuencia, el gasto promedio y la
-                categoría dominante de cada clúster.
+                Se utilizó K-means para agrupar a los clientes según su comportamiento
+                transaccional y, mediante el método del codo, se definió el número de
+                segmentos. Luego, mediante consultas en SQL, se analizó la frecuencia de uso,
+                el gasto promedio y la categoría de mayor consumo de cada grupo.
               </CardBlock>
               <CardBlock label="Resultado">
-                Los tres clústeres se diferenciaron por frecuencia y valor de gasto: ocasionales
-                de bajo gasto (42.7%), ocasionales de alto valor (33.1%, 9 veces mayor) y
-                usuarios frecuentes (24.2%).
+                Se identificaron tres segmentos, ocasionales de bajo gasto (42.7%), ocasionales
+                de alto valor (33.1%) y usuarios frecuentes (24.2%). A partir de estos perfiles,
+                se definieron acciones para incentivar el uso de los clientes de bajo gasto,
+                fortalecer la retención de los de alto valor y aumentar la lealtad de los
+                usuarios frecuentes.
               </CardBlock>
               <ProjectImageGrid
                 columns={3}
