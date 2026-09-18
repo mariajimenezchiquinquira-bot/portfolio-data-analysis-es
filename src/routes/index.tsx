@@ -134,7 +134,7 @@ function Index() {
 
             <ProjectCard
               title="Segmentación — Tarjetahabientes por Comportamiento de Gasto"
-              tech={["Python", "SQL"]}
+              tech={["Python", "SQL", "Scikit-learn", "K-means"]}
               actions={
                 <ActionLink href="/ConsumoTarjetasCredito.html" variant="solid">
                   <FileText className="h-4 w-4" aria-hidden="true" />
